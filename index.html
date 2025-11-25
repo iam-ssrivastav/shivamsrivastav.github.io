@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Shivam Srivastav - Java Backend Developer specializing in Spring Boot, Microservices, and AWS">
+    <meta name="keywords" content="Java, Spring Boot, Backend Developer, Microservices, AWS, System Design">
+    <meta name="author" content="Shivam Srivastav">
+    <title>Shivam Srivastav | Java Backend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Interactive Background Canvas -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo-text">SS</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#tech-stack" class="nav-link">Tech Stack</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Shivam Srivastav</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </h2>
+                <p class="hero-description">
+                    Passionate Java Backend Developer specializing in building scalable microservices
+                    architectures, distributed systems, and cloud-native applications with AWS.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a <strong>Java Backend Developer</strong> with extensive experience in designing and
+                        implementing enterprise-grade applications using modern technologies and architectural patterns.
+                    </p>
+                    <p>
+                        My expertise lies in building <strong>microservices architectures</strong>, implementing
+                        <strong>distributed system patterns</strong>, and deploying applications on <strong>AWS cloud
+                            infrastructure</strong>.
+                        I have a deep understanding of system design principles, design patterns, and best practices
+                        for creating scalable, maintainable, and high-performance backend systems.
+                    </p>
+                    <div class="expertise-grid">
+                        <div class="expertise-card">
+                            <div class="expertise-icon">🚀</div>
+                            <h3>Microservices Architecture</h3>
+                            <p>Event-driven systems with Kafka, service discovery, API gateways, and distributed tracing
+                            </p>
+                        </div>
+                        <div class="expertise-card">
+                            <div class="expertise-icon">☁️</div>
+                            <h3>Cloud & DevOps</h3>
+                            <p>AWS deployment, Docker containerization, CI/CD pipelines, and infrastructure automation
+                            </p>
+                        </div>
+                        <div class="expertise-card">
+                            <div class="expertise-icon">🎯</div>
+                            <h3>System Design</h3>
+                            <p>Design patterns, distributed systems, caching strategies, rate limiting, and idempotency
+                            </p>
+                        </div>
+                        <div class="expertise-card">
+                            <div class="expertise-icon">💾</div>
+                            <h3>Database Management</h3>
+                            <p>PostgreSQL, MySQL, Redis caching, query optimization, and data modeling</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack" class="tech-stack">
+        <div class="container">
+            <h2 class="section-title">Tech Stack</h2>
+            <p class="section-subtitle">Technologies and tools I work with</p>
+
+            <div class="tech-categories">
+                <div class="tech-category">
+                    <h3 class="category-title">Backend & Frameworks</h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">Spring Boot</span>
+                        <span class="tech-badge">Quarkus</span>
+                        <span class="tech-badge">Spring Security</span>
+                        <span class="tech-badge">Spring Data JPA</span>
+                        <span class="tech-badge">Hibernate</span>
+                        <span class="tech-badge">Spring Cloud</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3 class="category-title">Microservices & Messaging</h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">Apache Kafka</span>
+                        <span class="tech-badge">WebSocket</span>
+                        <span class="tech-badge">REST APIs</span>
+                        <span class="tech-badge">Event-Driven Architecture</span>
+                        <span class="tech-badge">Service Discovery</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3 class="category-title">Databases</h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">PostgreSQL</span>
+                        <span class="tech-badge">MySQL</span>
+                        <span class="tech-badge">H2 Database</span>
+                        <span class="tech-badge">Redis</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3 class="category-title">DevOps & Cloud</h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">AWS</span>
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">GitHub Actions</span>
+                        <span class="tech-badge">ELK Stack</span>
+                        <span class="tech-badge">Elasticsearch</span>
+                        <span class="tech-badge">Kibana</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3 class="category-title">System Design & Patterns</h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">Microservices Architecture</span>
+                        <span class="tech-badge">Design Patterns</span>
+                        <span class="tech-badge">Distributed Systems</span>
+                        <span class="tech-badge">Rate Limiting</span>
+                        <span class="tech-badge">Idempotency</span>
+                        <span class="tech-badge">Caching Strategies</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3 class="category-title">Tools & IDEs</h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">Maven</span>
+                        <span class="tech-badge">Git</span>
+                        <span class="tech-badge">Postman</span>
+                        <span class="tech-badge">IntelliJ IDEA</span>
+                        <span class="tech-badge">pgAdmin</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A showcase of my work in backend development and system design</p>
+
+            <div class="projects-grid">
+                <!-- Featured Projects with Full Details -->
+                <!-- Project 1: Order Management System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Order Management System</h3>
+                        <span class="project-type">Microservices</span>
+                    </div>
+                    <p class="project-description">
+                        Event-driven microservices architecture with Kafka for order processing, inventory management,
+                        and payment integration. Includes ELK stack for centralized logging and monitoring.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">Kafka</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">ELK Stack</span>
+                    </div>
+                    <div class="project-features">
+                        <ul>
+                            <li>Event-driven architecture with Apache Kafka</li>
+                            <li>Microservices communication patterns</li>
+                            <li>Centralized logging with ELK stack</li>
+                            <li>Docker containerization</li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/iam-ssrivastav/order-management-system" target="_blank"
+                        class="btn btn-github">View on GitHub →</a>
+                </div>
+
+                <!-- Project 2: TaskFlow -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">TaskFlow</h3>
+                        <span class="project-type">Full Stack</span>
+                    </div>
+                    <p class="project-description">
+                        Modern task management system with real-time collaboration features using WebSocket,
+                        JWT authentication, and comprehensive system design patterns.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">WebSocket</span>
+                        <span class="tech-tag">JWT</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-features">
+                        <ul>
+                            <li>Real-time updates with WebSocket</li>
+                            <li>JWT-based authentication & authorization</li>
+                            <li>Project and task management</li>
+                            <li>Responsive vanilla JavaScript UI</li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/iam-ssrivastav/taskflow-realtime-collaboration" target="_blank"
+                        class="btn btn-github">View on GitHub →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's connect and discuss opportunities</p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <a href="mailto:shivamsriv961@gmail.com">shivamsriv961@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">💼</div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://linkedin.com/in/Im_s_srivastav"
+                            target="_blank">linkedin.com/in/Im_s_srivastav</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">💻</div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/shivamsrivastav" target="_blank">github.com/shivamsrivastav</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">✍️</div>
+                        <h3>Medium</h3>
+                        <a href="https://medium.com/@shivam-srivastav" target="_blank">medium.com/@shivam-srivastav</a>
+                    </div>
+                </div>
+
+                <div class="contact-cta">
+                    <p class="cta-text">
+                        I'm currently open to new opportunities and interesting projects.
+                        Feel free to reach out if you'd like to collaborate or just want to connect!
+                    </p>
+                    <a href="mailto:shivam.srivastav@example.com" class="btn btn-primary">Send Message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Shivam Srivastav. Built with passion for backend development.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <span>↑</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
