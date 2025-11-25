@@ -150,8 +150,7 @@ const typingText = document.querySelector('.typing-text');
 const phrases = [
     'Java Backend Developer | Microservices Developer',
     'Java Backend Developer | Distributed Systems Expert',
-    'Java Backend Developer | Spring Boot Specialist',
-    'Java Backend Developer | AWS Cloud Engineer'
+    'Java Backend Developer | Expertise in Spring Boot'
 ];
 
 let phraseIndex = 0;
