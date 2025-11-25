@@ -149,8 +149,8 @@ animateParticles();
 const typingText = document.querySelector('.typing-text');
 const phrases = [
     'Java Backend Developer | Microservices Developer',
-    'Java Backend Developer | Expertise in Distributed Systems',
-    'Java Backend Developer | Expertise in Spring Boot'
+    'Java Backend Developer | Distributed Systems',
+    'Java Backend Developer | Spring Boot'
 ];
 
 let phraseIndex = 0;
